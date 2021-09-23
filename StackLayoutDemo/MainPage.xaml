@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+ xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+ x:Class="StackLayoutDemo.MainPage"
+ BackgroundColor="AliceBlue"
+ Title="StackLayout Demo">
+
+
+    <StackLayout Margin="20">
+       <Label Text="StackLayout Demo"
+              FontSize="40"
+              FontAttributes="Bold"
+              TextColor="Blue"/>
+        
+       <Label Text="Primary colors"
+              FontSize="40"
+              FontAttributes="Italic"
+              TextColor="Black"/>
+        
+         <Frame BorderColor="Black"
+               Padding="5"
+               CornerRadius="0">
+                
+              <StackLayout Orientation="Horizontal"
+                           Spacing="15">
+                <BoxView Color="Aqua" 
+                         Margin="0" 
+                         CornerRadius="0" />
+                <Label Text="Aqua"
+                  FontSize="30"
+                  TextColor="Black"
+                  VerticalOptions="Center" />
+            </StackLayout>
+             
+        </Frame>
+        
+         <Frame BorderColor="Black"
+                Padding="5"
+                CornerRadius="0">
+             
+            <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                <BoxView Color="CadetBlue" 
+                         Margin="0" 
+                         CornerRadius="0"/>
+                <Label Text="CadetBlue"
+                       FontSize="30"
+                       TextColor="Black"
+                       VerticalOptions="Center" />
+            </StackLayout>
+
+        </Frame>
+        
+         <Frame BorderColor="Black"
+                Padding="5"
+                CornerRadius="0">
+             
+            <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                <BoxView Color="Blue" 
+                         Margin="0" 
+                         CornerRadius="0"/>
+                <Label Text="Blue"
+                       FontSize="30"
+                       TextColor="Black"
+                       VerticalOptions="Center" />
+            </StackLayout>
+             
+        </Frame>
+        
+       <Label Text="Secondary colors"
+              FontSize="40"
+              FontAttributes="Italic"
+              TextColor="Black"/>
+        
+         <Frame BorderColor="Black"
+                Padding="5"
+                CornerRadius="0">
+             
+            <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                <BoxView Color="CornflowerBlue" 
+                         Margin="0" 
+                         CornerRadius="0"/>
+                <Label Text="CornflowerBlue"
+                       FontSize="30"
+                       TextColor="Black"
+                       VerticalOptions="Center" />
+            </StackLayout>
+             
+        </Frame>
+        
+         <Frame BorderColor="Black"
+                Padding="5"
+                CornerRadius="0">
+
+            <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                <BoxView Color="DarkCyan" 
+                         Margin="0" 
+                         CornerRadius="0"/>
+                <Label Text="DarkCyan"
+                       FontSize="30"
+                       TextColor="Black"
+                       VerticalOptions="Center" />
+            </StackLayout>
+             
+        </Frame>
+        
+         <Frame BorderColor="Black"
+                Padding="5"
+                CornerRadius="0">
+             
+            <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                <BoxView Color="DarkBlue" 
+                         Margin="0" 
+                         CornerRadius="0"/>
+                <Label Text="DarkBlue"
+                       FontSize="30"
+                       TextColor="Black"
+                       VerticalOptions="Center" />
+            </StackLayout>
+             
+        </Frame>
+        
+       <Label Text="by Женя"
+              FontSize="Medium"
+              FontAttributes="Italic"
+              TextColor="DarkGray"/>
+       
+    </StackLayout>
+    
+</ContentPage>
